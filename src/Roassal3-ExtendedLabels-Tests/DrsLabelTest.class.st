@@ -18,7 +18,7 @@ DrsLabelTest >> checkShapesOf: aLabel matching: aCollection [
 { #category : #private }
 DrsLabelTest >> inspect: anObject [ 
 
-	"anObject inspect."
+	anObject inspect.
 ]
 
 { #category : #tests }

@@ -38,6 +38,14 @@ PdmTextChunk >> asLabelChunk [
 	self subclassResponsibility 
 ]
 
+{ #category : #accessing }
+PdmTextChunk >> initialize [ 
+
+	super initialize.
+	
+	styleClassNames := #(normal)
+]
+
 { #category : #initialization }
 PdmTextChunk >> initializeWith: anObject styles: aCollectionOfNames [
 
