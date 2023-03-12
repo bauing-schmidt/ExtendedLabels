@@ -32,6 +32,12 @@ PdmTextChunk class >> with: anObject styles: styleClassNames variants: styleVari
 	^ self new initializeWith: anObject styles: styleClassNames variants: styleVariants
 ]
 
+{ #category : #accessing }
+PdmTextChunk >> asLabelChunk [ 
+
+	self subclassResponsibility 
+]
+
 { #category : #initialization }
 PdmTextChunk >> initializeWith: anObject styles: aCollectionOfNames [
 

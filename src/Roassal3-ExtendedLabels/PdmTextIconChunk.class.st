@@ -11,6 +11,18 @@ Class {
 }
 
 { #category : #accessing }
+PdmTextIconChunk >> asLabelChunk [ 
+
+	^ self asLabelChunk: nil
+]
+
+{ #category : #accessing }
+PdmTextIconChunk >> asLabelChunk: aString [
+
+	^ DrsLabelIconChunk new icon: self icon.
+]
+
+{ #category : #accessing }
 PdmTextIconChunk >> icon [
 
 	^ icon
