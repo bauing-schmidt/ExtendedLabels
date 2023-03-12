@@ -1,6 +1,6 @@
 Class {
 	#name : #DrsStyleConfiguration,
-	#superclass : #DrsSVDConfiguration,
+	#superclass : #Object,
 	#instVars : [
 		'styles'
 	],
