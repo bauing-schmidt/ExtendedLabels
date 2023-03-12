@@ -882,7 +882,7 @@ DrsLabel >> labelChunksFrom: aText with: aStyleSheet length: aLength [
 					labelChunk length: freeLength ].
 				freeLength := freeLength - labelChunk length ].
 
-		(nextChunksAreHidden not and: [ freeLength = 0 ] and: [ labelChunk isShrinked ]) ifTrue: [ 
+		((nextChunksAreHidden not and: [ freeLength = 0 ]) and: [ labelChunk isShrinked ]) ifTrue: [ 
 			nextChunksAreHidden := true ].
 
 		styles := aStyleSheet
