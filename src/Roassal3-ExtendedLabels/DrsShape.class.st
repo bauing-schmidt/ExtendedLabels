@@ -226,6 +226,12 @@ DrsShape >> bounds [
 			yourself ]
 ]
 
+{ #category : #actions }
+DrsShape >> boundsClass [
+
+	^ DrsBounds
+]
+
 { #category : #accessing }
 DrsShape >> changeAssignedExtent: aPoint updateDependencies: aBoolean [
 

@@ -4,3 +4,9 @@ Extension { #name : #Point }
 Point >> half [
 	^x half @ y half
 ]
+
+{ #category : #'*Roassal3-ExtendedLabels' }
+Point >> x: xValue [ 
+	
+	x := xValue
+]
